@@ -10,104 +10,92 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:ital@1&family=Zen+Loop&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body class="bodyProductos">
-    <header class="headerProductos">
-        <div class="logoTekemilas">
-            <h1 class="tituloTekemilas">Tekemilas</h1>
+<body>
+    <div class="container">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#">TEKEMILAS</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contactos.html">Contactos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/productos.html">Productos</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/pagos.html">Pagos</a> 
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
         </div>
-        <nav>
-            <a class="aHeader" href="../index.html">Inicio</a> </li>
-            <a class="aHeader" href="../pages/contactos.html">Contactos</a></li>
-            <a class="aHeader" href="../pages/nosotros.html">Nosotros</a></li>
-            <a class="aHeader" href="../pages/productos.html">Productos</a></li>
-            <a class="aHeader" href="../pages/pagos.html">Medios de pago</a></li>
-        </nav>
-    </header>
 
-    <div>
-        <h1 class="tituloProductos animate__animated animate__backInLeft">Productos</h1>
+
+        <div>
+            <h1 class="tituloProductos animate__animated animate__backInLeft">Productos</h1>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/fotoTekemilas4.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/fotoTekemilas3.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/tekemilasPromociones.jpeg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <footer class="footer">Derechos Reservados / Tekemilas &copy
+            <nav> 
+                <a href="https://www.instagram.com/tekemilas/">
+                    <img src="../img/instagram.png" width="50" height="50" alt="instagram">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100054620926980">
+                    <img src="../img/R.png" width="50" height="50" alt="Facebook">
+                </a>
+                <a href="">
+                    <img src="../img/whatsapp.png" width="50" height="50" alt="WhatsApp">
+                </a>
+                <a href="">
+                    <img src="../img/correo.png" width="50" height="50" alt="Correo">
+                </a>
+            </nav>
+        </footer>
     </div>
-    <main>
-        <section>
-            <table border="2px" cellspacing="8px" cellpading="10px">
-                <caption>Nuestros productos</caption>
-                <thead>
-                    <tr>
-                    <th>Milanesa</th>
-                    <th>Ingredientes</th>
-                    <th>Precio</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                    <td>Carne</td>
-                    <td> <ul>
-                            <li>Filete de Nalga</li>
-                            <li>Huevos</li>
-                            <li>Pan Rallado</li>
-                            <li>Ajo</li>
-                            <li>Perejil</li>
-                            <li>Sal</li>
-                            <li>condimentos</li>
-                        </ul>
-                    </td>
-                    <td>$850</td>
-                    </tr>
-                    <tr>
-                    <td>Pollo</td>
-                    <td>
-                        <ul>
-                            <li>Pechuga de Pollo</li>
-                            <li>Huevos</li>
-                            <li>Pan Rallado</li>
-                            <li>Ajo</li>
-                            <li>Perejil</li>
-                            <li>Sal</li>
-                            <li>Condimentos</li>
-                        </ul>
-                    </td>
-                    <td>$650</td>
-                    </tr>
-                    <tr>
-                    <td>Cerdo</td>
-                    <td>
-                        <ul>
-                            <li>Chuletas de Cerdo</li>
-                            <li>Huevo</li>
-                            <li>Pan Rallado</li>
-                            <li>Ajo</li>
-                            <li>Perejil</li>
-                            <li>Sal</li>
-                            <li>Condimentos</li>
-                        </ul
-                    ></td>
-                    <td>$700</td>
-                    </tr>
-                </tbody>
-                
-            </table>
-        </section>
-    </main>
+    
 
 
-
-    <footer class="footer">Derechos Reservados / Tekemilas &copy
-        <nav> 
-            <a href="https://www.instagram.com/tekemilas/">
-                <img src="../img/instagram.png" width="50" height="50" alt="instagram">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100054620926980">
-                <img src="../img/R.png" width="50" height="50" alt="Facebook">
-            </a>
-            <a href="">
-                <img src="../img/whatsapp.png" width="50" height="50" alt="WhatsApp">
-            </a>
-            <a href="">
-                <img src="../img/correo.png" width="50" height="50" alt="Correo">
-            </a>
-        </nav>
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+</html>
 </html>
