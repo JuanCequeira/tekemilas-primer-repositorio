@@ -254,38 +254,7 @@ body{
     display: flex;
 }
 
-
-
-
-/* ---------- MEDIOS DE PAGO ---------- */ 
-/*.bodyPagos{
-    width: 90%;
-    max-width: 1000px;
-    margin: 20px auto;
-    padding: 20px;
-}
-.bodyPagos a{
-    text-decoration: none;
-    color: #fff;
-    padding: 15px;
-}
-
-.headerPago{
-    display: flex;
-    justify-content: space-between;
-    background-color: #201e1b;
-    font-family: 'Koulen', cursive;
-    align-items: center;
-    padding: 20px;
-    color: #fff;
-    text-decoration: none;
-}
-.tituloPago{
-    font-family: 'Koulen', cursive;    text-align: center;
-    color: black;
-    text-transform: uppercase;
-}*/
-
+/* ---------- MEDIOS DE PAGO ---------- */
 .contenedorPagos{
     width: 90%;
     max-width: 1000px;
