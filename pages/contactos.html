@@ -10,81 +10,69 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Roboto:ital@1&family=Zen+Loop&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-<body class="bodyContactos">
-    <header class="headerContactos">
-        <div class="logoTekemilas">
-            <h1 class="tituloTekemilas">Tekemilas</h1>
+<body>
+    
+    <div class="container">
+        <div>
+            <header class="headerContactos">
+                <div class="logoTekemilas">
+                    <h1 class="tituloTekemilas">Tekemilas</h1>
+                </div>
+                <nav>
+                    <a class="aHeader" href="../index.html">Inicio</a> </li>
+                    <a class="aHeader" href="../pages/contactos.html">Contactos</a></li>
+                    <a class="aHeader" href="../pages/nosotros.html">Nosotros</a></li>
+                    <a class="aHeader" href="../pages/productos.html">Productos</a></li>
+                    <a class="aHeader" href="../pages/pagos.html">Medios de pago</a></li>
+                </nav>
+            </header>
+            <div>
+                <h1 class="tituloContactos animate__animated animate__backInLeft">Contactos</h1>
+            </div>
         </div>
-        <nav>
-            <a class="aHeader" href="../index.html">Inicio</a> </li>
-            <a class="aHeader" href="../pages/contactos.html">Contactos</a></li>
-            <a class="aHeader" href="../pages/nosotros.html">Nosotros</a></li>
-            <a class="aHeader" href="../pages/productos.html">Productos</a></li>
-            <a class="aHeader" href="../pages/pagos.html">Medios de pago</a></li>
-        </nav>
-    </header>
-
-    <div>
-        <h1 class="tituloContactos animate__animated animate__backInLeft">Contactos</h1>
+        <div class="row">
+            <div class="col-10">
+                <form>
+                    <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie mas.</div>
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div><footer class="footer">Derechos Reservados / Tekemilas &copy
+            <nav> 
+                <a href="https://www.instagram.com/tekemilas/">
+                    <img src="../img/instagram.png" width="50" height="50" alt="instagram">
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100054620926980">
+                    <img src="../img/R.png" width="50" height="50" alt="Facebook">
+                </a>
+                <a href="">
+                    <img src="../img/whatsapp.png" width="50" height="50" alt="WhatsApp">
+                </a>
+                <a href="">
+                    <img src="../img/correo.png" width="50" height="50" alt="Correo">
+                </a>
+            </nav>
+        </footer></div>
     </div>
-    <form action="" method="get" enctype="text/plain">
-        <fieldset>
-            <legend>Queremos conocerte</legend>
-            <br>
-            <br>
-            <label for="sexo">Sexo:</label>
-            <input type="radio" name="userSex" id="sexo"  value="masculino">Hombre
-            <input type="radio" name="userSex" id="sexo" value="femenino">Mujer
-            <input type="radio" name="userSex" id="sexo" value="otro">Otro
-            <br>
-            <hr>
-            <label for="info-personal">Nombre</label>
-            <input type="text" name="userName" id="info-personal" placeholder="Nombre" required>
-            <br>
-            <br>
-            <label for="info-personal">Apellido</label>
-            <input type="text" name="userLastName" id="info-personal" placeholder="Apellido" required>
-            <br>
-            <br>
-            <label for="correo">Correo</label>
-            <input type="email" id="email"  placeholder="Correo" required>
-            <br>
-            <br>
-            <label for="gustos">Cual es tu preferida?</label>
-            <select name="userTaste" id="gustos">
-                <option value="" disabled selected>Gusto preferido</option>
-                <option value="pollo">Pollo</option>
-                <option value="carne">Carne</option>
-                <option value="otro">Otro</option>
-            </select>
-            <br>
-            <br>
-            <label for="condicion">Acepta las condiciones:</label>
-            <input type="checkbox" name="mandatory" id="condicion" value="1">
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Reset">
-        </fieldset>
-    </form>
-
-    <br>    
-    <br>
-
-    <footer class="footer">Derechos Reservados / Tekemilas &copy
-        <nav> 
-            <a href="https://www.instagram.com/tekemilas/">
-                <img src="../img/instagram.png" width="50" height="50" alt="instagram">
-            </a>
-            <a href="https://www.facebook.com/profile.php?id=100054620926980">
-                <img src="../img/R.png" width="50" height="50" alt="Facebook">
-            </a>
-            <a href="">
-                <img src="../img/whatsapp.png" width="50" height="50" alt="WhatsApp">
-            </a>
-            <a href="">
-                <img src="../img/correo.png" width="50" height="50" alt="Correo">
-            </a>
-        </nav>
-    </footer>
-</body>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
 </html>
