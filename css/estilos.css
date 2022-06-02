@@ -143,7 +143,13 @@ body{
     color: black;
     text-transform: uppercase;
 }
-
+.cajaNosotros{
+    display: flex;
+}
+.cajaNosotros div{
+    width: 50%;
+    padding: 10px;
+}
 
 /* ---------- MEDIOS DE PAGO ---------- */ 
 .tituloPagos{
