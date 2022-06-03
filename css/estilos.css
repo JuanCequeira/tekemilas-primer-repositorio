@@ -37,13 +37,19 @@ body{
 .footer{
     background-color: #201e1b;
     color: #fff;
-    grid-area: footer;
     font-family: 'Koulen', cursive;
     text-align: center;
     flex-direction: column;
     line-height: 3;
     align-self: flex-end;
     display: flex;
+
+}
+.footer svg{
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
 }
 
 
