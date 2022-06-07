@@ -106,7 +106,18 @@ body{
 .cajaNosotros h2{
     text-align: center;
 }
-
+.ubicacion{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e9ecf4;
+}
+.ubicacion div{
+    width: 50%;
+    padding: 10px;
+}
+.ubicacion h3{
+    text-align: center;
+}
 /* ---------- MEDIOS DE PAGO ---------- */ 
 .tituloPagos{
     font-family: 'Koulen', cursive;   
