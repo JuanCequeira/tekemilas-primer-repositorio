@@ -1,0 +1,195 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color: #e9ecf4;
+    color: #000;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.divTekemilas{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecf4;
+}
+.tituloTekemilasDiv{
+    font-family: 'Koulen', cursive;   
+    text-align: center;
+    color: black;
+}
+.heroText{
+    background: url(../img/fondoq.jpg);
+    background-size: 100% 100%;
+    padding: 60px 0 30px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Koulen', cursive;  
+}
+.heroText h1::after{
+    content: " ";
+    display: block;
+    margin: 20px auto 40px;
+    width: 100px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+.heroText a{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #f3f198;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.heroText p{
+    font-size: 90%;
+    font-weight: bold;
+}
+
+
+.heroProductos{
+    font-family: 'Koulen', cursive;  
+    padding: 60px 0px 30px;
+    text-align: center;
+}
+.heroProductos h1::after{ 
+    content: " ";
+    display: block;
+    margin: 20px auto 40px;
+    width: 100px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+.heroProductos section{
+    padding: 30px 0;
+}
+
+.iconosParrafo{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos{
+    text-align: center;
+}
+.iconos h3{
+    text-align: center;
+}
+
+.footer{
+    background-color: #201e1b;
+    color: #fff;
+    font-family: 'Koulen', cursive;
+    text-align: center;
+    flex-direction: column;
+    line-height: 3;
+    align-self: flex-end;
+    display: flex;
+
+}
+.footer svg{
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+/* ---------- CONTACTOS ---------- */
+
+.headerContactos{
+    display: flex;
+    justify-content: space-between;
+    background-color: #201e1b;
+    font-family: 'Koulen', cursive;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.tituloContactos{
+    font-family: 'Koulen', cursive;    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.headerContactos a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+/* ---------- PRODUCTOS ----------  */
+
+.tituloProductos{
+    font-family: 'Koulen', cursive; 
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+/* ---------- NOSOTROS --------- */ 
+
+.tituloNosotros{
+    font-family: 'Koulen', cursive;   
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+.cajaNosotros{
+    display: flex;
+    background-color: #e9ecf4;
+}
+.cajaNosotros div{
+    width: 50%;
+    padding: 10px;
+}
+.cajaNosotros h2{
+    text-align: center;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e9ecf4;
+}
+.ubicacion div{
+    width: 50%;
+    padding: 10px;
+}
+.ubicacion h3{
+    text-align: center;
+}
+/* ---------- MEDIOS DE PAGO ---------- */ 
+.tituloPagos{
+    font-family: 'Koulen', cursive;   
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+/* ---------- MEDIA ---------- */
+@media screen and (max-width: 768px){
+    .contenedor{
+        grid-template-areas: "header header header"
+                        "contenido contenido contenido"
+                        "sidebar sidebar sidebar"
+                        "widget-1 widget-2 widget-2"
+                        "footer footer footer";
+    }
+}
+@media screen and (max-width: 768px){
+    .contenedorNosotros{
+        grid-template-areas:
+        "header header header"
+        ".     tituNosotros   ."
+        "contenido contenido sidebar"
+        "widget-1 widget-1 sidebar"
+        "widget-2 widget-2 widget-2"
+        "footer footer footer"}
+}
