@@ -13,6 +13,17 @@ body{
     color: #000;
     font-family: $fuente-body;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #201e1b;
+    font-family: $fuente-titulo;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
 .divTekemilas{
     display: flex;
     flex-direction: column;
@@ -21,7 +32,7 @@ body{
 .tituloTekemilasDiv{
     font-family: $fuente-titulo;   
     text-align: center;
-    color: $color-titulo;
+    color: black;
 }
 .heroText{
     background: url(../img/fondoq.jpg);
@@ -35,6 +46,82 @@ body{
     content: " ";
     display: block;
     margin: 20px auto 40px;
+    width: 100px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+.heroText a{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    background: #f3f198;
+    color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.heroText p{
+    font-size: 90%;
+    font-weight: bold;
+}
+
+
+.heroProductos{
+    font-family: $fuente-titulo;  
+    padding: 60px 0px 30px;
+    text-align: center;
+}
+.heroProductos h1::after{ 
+    content: " ";
+    display: block;
+    margin: 20px auto 40px;
+    width: 100px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+.heroProductos section{
+    padding: 30px 0;
+}
+
+.iconosParrafo{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos{
+    text-align: center;
+}
+.iconos h3{
+    text-align: center;
+}
+
+.footer{
+    background-color: #201e1b;
+    color: #fff;
+    font-family: $fuente-titulo;
+    text-align: center;
+    flex-direction: column;
+    line-height: 3;
+    align-self: flex-end;
+    display: flex;
+
+}
+.footer svg{
+    padding: 10px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+/* ---------- CONTACTOS ---------- */
+
+.tituloContactos{
+    font-family: $fuente-titulo;    
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header a{
     text-decoration: none;
     color: white;
     padding: 10px;
@@ -45,7 +132,7 @@ body{
 .tituloProductos{
     font-family: $fuente-titulo; 
     text-align: center;
-    color: $color-titulo;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -55,7 +142,7 @@ body{
 .tituloNosotros{
     font-family: $fuente-titulo;   
     text-align: center;
-    color: $color-titulo;
+    color: black;
     text-transform: uppercase;
 }
 .cajaNosotros{
@@ -85,7 +172,7 @@ body{
 .tituloPagos{
     font-family: $fuente-titulo;   
     text-align: center;
-    color: $color-titulo;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -108,4 +195,4 @@ body{
         "widget-1 widget-1 sidebar"
         "widget-2 widget-2 widget-2"
         "footer footer footer"}
-} 
+}
