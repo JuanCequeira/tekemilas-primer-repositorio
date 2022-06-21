@@ -10,6 +10,9 @@ body {
   color: #000;
   font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; }
 
+.container {
+  display: grid; }
+
 /* HEADER */
 .header {
   display: flex;
@@ -28,6 +31,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #e9ecf4; }
+  .divTekemilas p {
+    font-size: 1.2em;
+    letter-spacing: 1px; }
 
 .tituloTekemilasDiv {
   font-family: "Montserrat";
@@ -103,6 +109,10 @@ body {
   color: black;
   text-align: center;
   text-transform: uppercase; }
+
+.pContactos {
+  font-size: 1.2em;
+  letter-spacing: 1px; }
 
 /* ---------- PRODUCTOS ----------  */
 .tituloProductos {

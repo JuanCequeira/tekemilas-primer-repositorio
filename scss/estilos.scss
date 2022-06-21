@@ -13,6 +13,9 @@ body{
     color: #000;
     font-family: $fuente-body;
 }
+.container{
+    display: grid;
+}
 
 /* HEADER */ 
 .header{
@@ -35,6 +38,11 @@ body{
     display: flex;
     flex-direction: column;
     background-color: #e9ecf4;
+
+    p{
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
 }
 .tituloTekemilasDiv{
     font-family: $fuente-inicio;   
@@ -133,6 +141,10 @@ body{
         align: center;
         transform: uppercase;
     }
+}
+.pContactos{
+        font-size: 1.2em;
+        letter-spacing: 1px;
 }
 
 
