@@ -100,22 +100,22 @@ body {
 /* ---------- CONTACTOS ---------- */
 .tituloContactos {
   font-family: "Koulen";
-  text-align: center;
   color: black;
+  text-align: center;
   text-transform: uppercase; }
 
 /* ---------- PRODUCTOS ----------  */
 .tituloProductos {
   font-family: "Koulen";
-  text-align: center;
   color: black;
+  text-align: center;
   text-transform: uppercase; }
 
 /* ---------- NOSOTROS --------- */
 .tituloNosotros {
   font-family: "Koulen";
-  text-align: center;
   color: black;
+  text-align: center;
   text-transform: uppercase; }
 
 .cajaNosotros {
@@ -140,8 +140,8 @@ body {
 /* ---------- MEDIOS DE PAGO ---------- */
 .tituloPagos {
   font-family: "Koulen";
-  text-align: center;
   color: black;
+  text-align: center;
   text-transform: uppercase; }
 
 /* ---------- MEDIA ---------- */

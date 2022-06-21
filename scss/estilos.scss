@@ -127,9 +127,12 @@ body{
 
 .tituloContactos{
     font-family: $fuente-paginas;    
-    text-align: center;
     color: black;
-    text-transform: uppercase;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
 }
 
 
@@ -137,9 +140,12 @@ body{
 
 .tituloProductos{
     font-family: $fuente-paginas; 
-    text-align: center;
     color: black;
-    text-transform: uppercase;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
 }
 
 
@@ -147,9 +153,12 @@ body{
 
 .tituloNosotros{
     font-family: $fuente-paginas;   
-    text-align: center;
     color: black;
-    text-transform: uppercase;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
 }
 .cajaNosotros{
     display: flex;
@@ -181,9 +190,12 @@ body{
 /* ---------- MEDIOS DE PAGO ---------- */ 
 .tituloPagos{
     font-family: $fuente-paginas;   
-    text-align: center;
     color: black;
-    text-transform: uppercase;
+
+    text: {
+        align: center;
+        transform: uppercase;
+    }
 }
 
 /* ---------- MEDIA ---------- */
