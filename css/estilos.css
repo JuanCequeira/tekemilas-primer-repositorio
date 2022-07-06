@@ -3,7 +3,7 @@
   padding: 0; }
 
 html {
-  font-size: 18px; }
+  font-size: 1.3177159590043923vw; }
 
 body {
   background-color: #e9ecf4;
@@ -20,12 +20,12 @@ body {
   background-color: #201e1b;
   font-family: "Montserrat";
   align-items: center;
-  padding: 20px;
+  padding: 1.5vh;
   color: #fff; }
   .header a {
     text-decoration: none;
     color: white;
-    padding: 10px; }
+    padding: 0.7vh; }
 
 .divTekemilas {
   display: flex;
@@ -33,7 +33,7 @@ body {
   background-color: #e9ecf4; }
   .divTekemilas p {
     font-size: 1.2em;
-    letter-spacing: 1px; }
+    letter-spacing: 0.07vh; }
 
 .tituloTekemilasDiv {
   font-family: "Montserrat";
@@ -43,24 +43,24 @@ body {
 .heroText {
   background-image: url(../img/fondoq.jpg);
   background-size: 100% 100%;
-  padding: 60px 0 30px;
+  padding: 4.4vh 0 2.2vh;
   color: black;
   text-align: center;
   font-family: "Montserrat"; }
   .heroText h1::after {
     content: " ";
     display: block;
-    margin: 20px auto 40px;
-    width: 100px;
-    height: 2px;
+    margin: 1.5vh auto 3vh;
+    width: 7.3vh;
+    height: 0.15vh;
     background: black; }
   .heroText a {
-    margin-top: 20px;
+    margin-top: 1.25rem;
     display: inline-block;
-    padding: 15px 25px;
+    padding: 1.1vh 1.8vh;
     background: #f3f198;
     color: black;
-    border: 1px solid #fff;
+    border: 0.07vh solid #fff;
     text-decoration: none; }
   .heroText p {
     font-size: 90%;
@@ -68,17 +68,17 @@ body {
 
 .heroProductos {
   font-family: "Montserrat";
-  padding: 60px 0px 30px;
+  padding: 3.75rem 0 1.875rem;
   text-align: center; }
   .heroProductos h1::after {
     content: " ";
     display: block;
-    margin: 20px auto 40px;
-    width: 100px;
-    height: 2px;
+    margin: 1.25rem auto 2.5rem;
+    width: 6.25rem;
+    height: 0.125rem;
     background: black; }
   .heroProductos section {
-    padding: 30px 0; }
+    padding: 1.875rem 0; }
 
 .iconosParrafo {
   display: flex;
@@ -99,7 +99,7 @@ body {
   align-self: flex-end;
   display: flex; }
   .footer svg {
-    padding: 10px; }
+    padding: 0.625rem; }
   .footer a {
     text-decoration: none; }
 
@@ -112,7 +112,7 @@ body {
 
 .pContactos {
   font-size: 1.2em;
-  letter-spacing: 1px; }
+  letter-spacing: 0.063rem; }
 
 /* ---------- PRODUCTOS ----------  */
 .tituloProductos {
@@ -133,7 +133,7 @@ body {
   background-color: #e9ecf4; }
   .cajaNosotros div {
     width: 50%;
-    padding: 10px; }
+    padding: 0.625rem; }
   .cajaNosotros h2 {
     text-align: center; }
 
@@ -143,8 +143,14 @@ body {
   background-color: #e9ecf4; }
   .ubicacion div {
     width: 50%;
-    padding: 10px; }
+    padding: 0.625rem; }
   .ubicacion h3 {
+    text-align: center; }
+
+.redes {
+  background-color: #e9ecf4;
+  image-orientation: flip; }
+  .redes h3 {
     text-align: center; }
 
 /* ---------- MEDIOS DE PAGO ---------- */
@@ -156,9 +162,289 @@ body {
 
 /* ---------- MEDIA ---------- */
 @media screen and (max-width: 768px) {
-  .contenedor {
-    grid-template-areas: "header header header" "contenido contenido contenido" "sidebar sidebar sidebar" "widget-1 widget-2 widget-2" "footer footer footer"; } }
+  * {
+    margin: 0;
+    padding: 0; }
+  html {
+    font-size: 1.3177159590043923vw; }
+  body {
+    background-color: #e9ecf4;
+    color: #000;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; }
+  .container {
+    display: grid; }
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201e1b;
+    font-family: "Montserrat";
+    align-items: center;
+    padding: 1.5vh;
+    color: #fff; }
+    .header a {
+      text-decoration: none;
+      color: white;
+      padding: 0.7vh; }
+  .divTekemilas {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecf4; }
+    .divTekemilas p {
+      font-size: 1.2em;
+      letter-spacing: 0.07vh; }
+  .tituloTekemilasDiv {
+    font-family: "Montserrat";
+    text-align: center;
+    color: black; }
+  .heroText {
+    background-image: url(../img/fondoq.jpg);
+    background-size: 100% 100%;
+    padding: 4.4vh 0 2.2vh;
+    color: black;
+    text-align: center;
+    font-family: "Montserrat"; }
+    .heroText h1::after {
+      content: " ";
+      display: block;
+      margin: 1.5vh auto 3vh;
+      width: 7.3vh;
+      height: 0.15vh;
+      background: black; }
+    .heroText a {
+      margin-top: 1.25rem;
+      display: inline-block;
+      padding: 1.1vh 1.8vh;
+      background: #f3f198;
+      color: black;
+      border: 0.07vh solid #fff;
+      text-decoration: none; }
+    .heroText p {
+      font-size: 90%;
+      font-weight: bold; }
+  .heroProductos {
+    font-family: "Montserrat";
+    padding: 3.75rem 0 1.875rem;
+    text-align: center; }
+    .heroProductos h1::after {
+      content: " ";
+      display: block;
+      margin: 1.25rem auto 2.5rem;
+      width: 6.25rem;
+      height: 0.125rem;
+      background: black; }
+    .heroProductos section {
+      padding: 1.875rem 0; }
+  .iconosParrafo {
+    display: flex;
+    justify-content: space-between; }
+  .iconos {
+    text-align: center; }
+    .iconos h3 {
+      text-align: center; }
+  .footer {
+    background-color: #201e1b;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    flex-direction: column;
+    line-height: 3;
+    align-self: flex-end;
+    display: flex; }
+    .footer svg {
+      padding: 0.625rem; }
+    .footer a {
+      text-decoration: none; }
+  /* ---------- CONTACTOS ---------- */
+  .tituloContactos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .pContactos {
+    font-size: 1.2em;
+    letter-spacing: 0.063rem; }
+  /* ---------- PRODUCTOS ----------  */
+  .tituloProductos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  /* ---------- NOSOTROS --------- */
+  .tituloNosotros {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .cajaNosotros {
+    display: flex;
+    background-color: #e9ecf4; }
+    .cajaNosotros div {
+      width: 50%;
+      padding: 0.625rem; }
+    .cajaNosotros h2 {
+      text-align: center; }
+  .ubicacion {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e9ecf4; }
+    .ubicacion div {
+      width: 50%;
+      padding: 0.625rem; }
+    .ubicacion h3 {
+      text-align: center; }
+  .redes {
+    background-color: #e9ecf4;
+    image-orientation: flip; }
+    .redes h3 {
+      text-align: center; }
+  /* ---------- MEDIOS DE PAGO ---------- */
+  .tituloPagos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; } }
 
-@media screen and (max-width: 768px) {
-  .contenedorNosotros {
-    grid-template-areas: "header header header" ".     tituNosotros   ." "contenido contenido sidebar" "widget-1 widget-1 sidebar" "widget-2 widget-2 widget-2" "footer footer footer"; } }
+@media screen and (max-width: 575px) {
+  * {
+    margin: 0;
+    padding: 0; }
+  html {
+    font-size: 1.3177159590043923vw; }
+  body {
+    background-color: #e9ecf4;
+    color: #000;
+    font-family: "Segoe UI", "Open Sans", "Helvetica Neue", sans-serif; }
+  .container {
+    display: grid; }
+  /* HEADER */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201e1b;
+    font-family: "Montserrat";
+    align-items: center;
+    padding: 1.5vh;
+    color: #fff; }
+    .header a {
+      text-decoration: none;
+      color: white;
+      padding: 0.7vh; }
+  .divTekemilas {
+    display: flex;
+    flex-direction: column;
+    background-color: #e9ecf4; }
+    .divTekemilas p {
+      font-size: 1.2em;
+      letter-spacing: 0.07vh; }
+  .tituloTekemilasDiv {
+    font-family: "Montserrat";
+    text-align: center;
+    color: black; }
+  .heroText {
+    background-image: url(../img/fondoq.jpg);
+    background-size: 100% 100%;
+    padding: 4.4vh 0 2.2vh;
+    color: black;
+    text-align: center;
+    font-family: "Montserrat"; }
+    .heroText h1::after {
+      content: " ";
+      display: block;
+      margin: 1.5vh auto 3vh;
+      width: 7.3vh;
+      height: 0.15vh;
+      background: black; }
+    .heroText a {
+      margin-top: 1.25rem;
+      display: inline-block;
+      padding: 1.1vh 1.8vh;
+      background: #f3f198;
+      color: black;
+      border: 0.07vh solid #fff;
+      text-decoration: none; }
+    .heroText p {
+      font-size: 90%;
+      font-weight: bold; }
+  .heroProductos {
+    font-family: "Montserrat";
+    padding: 3.75rem 0 1.875rem;
+    text-align: center; }
+    .heroProductos h1::after {
+      content: " ";
+      display: block;
+      margin: 1.25rem auto 2.5rem;
+      width: 6.25rem;
+      height: 0.125rem;
+      background: black; }
+    .heroProductos section {
+      padding: 1.875rem 0; }
+  .iconosParrafo {
+    display: flex;
+    justify-content: space-between; }
+  .iconos {
+    text-align: center; }
+    .iconos h3 {
+      text-align: center; }
+  .footer {
+    background-color: #201e1b;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    flex-direction: column;
+    line-height: 3;
+    align-self: flex-end;
+    display: flex; }
+    .footer svg {
+      padding: 0.625rem; }
+    .footer a {
+      text-decoration: none; }
+  /* ---------- CONTACTOS ---------- */
+  .tituloContactos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .pContactos {
+    font-size: 1.2em;
+    letter-spacing: 0.063rem; }
+  /* ---------- PRODUCTOS ----------  */
+  .tituloProductos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  /* ---------- NOSOTROS --------- */
+  .tituloNosotros {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; }
+  .cajaNosotros {
+    display: flex;
+    background-color: #e9ecf4; }
+    .cajaNosotros div {
+      width: 50%;
+      padding: 0.625rem; }
+    .cajaNosotros h2 {
+      text-align: center; }
+  .ubicacion {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #e9ecf4; }
+    .ubicacion div {
+      width: 50%;
+      padding: 0.625rem; }
+    .ubicacion h3 {
+      text-align: center; }
+  .redes {
+    background-color: #e9ecf4;
+    image-orientation: flip; }
+    .redes h3 {
+      text-align: center; }
+  /* ---------- MEDIOS DE PAGO ---------- */
+  .tituloPagos {
+    font-family: "Koulen";
+    color: black;
+    text-align: center;
+    text-transform: uppercase; } }
